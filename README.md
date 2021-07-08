@@ -1,13 +1,13 @@
 
-## Project: Diagonal Sudoku Solver
+# Project: Diagonal Sudoku Solver
 
-# Question 1 (Naked Twins)
+## Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?
 A: *1 search all boxes having two values and find out boxes which have same value in the peers,
     2 according the peers's index, find out boxes which have naked twins number in same rows or same cols and have more than two value
     3 if naked twins number in these cols or rows 's boxes, delete the digit number from these boxese. *
 
-# Question 2 (Diagonal Sudoku)
+## Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?
 A: *1 create two diagoanl units: [['A1', 'B2', 'C3', 'D4', 'E5', 'F6', 'G7', 'H8', 'I9'],
                                   ['A9', 'B8', 'C7', 'D6', 'E5', 'F4', 'G3', 'H2', 'I1']]
