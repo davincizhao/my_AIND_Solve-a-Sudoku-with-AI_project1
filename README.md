@@ -14,11 +14,11 @@ A: *1 create two diagoanl units: [['A1', 'B2', 'C3', 'D4', 'E5', 'F6', 'G7', 'H8
     2 apply this units to create peers.
     3 peers['E5'] has 32 peers, other box have 26 peers.(before all box have 20 peers)*
 
-### Install
+### How to Install
 
 This project requires **Python 3**.
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
+Install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 Please try using the environment we provided in the Anaconda lesson of the Nanodegree.
 
 ##### Optional: Pygame
